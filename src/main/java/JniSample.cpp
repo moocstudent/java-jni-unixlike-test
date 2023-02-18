@@ -1,6 +1,4 @@
-//
-// Created by tanghuijuan on 2023/2/18.
-//
+
 #include "jni.h"
 #include "JniSample.h"
 
