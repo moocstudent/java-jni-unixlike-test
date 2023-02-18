@@ -15,6 +15,14 @@ extern "C" {
 JNIEXPORT jint JNICALL Java_JniSample_sum
   (JNIEnv *, jobject, jint, jint);
 
+/*
+ * Class:     JniSample
+ * Method:    multiply
+ * Signature: (II)I
+ */
+JNIEXPORT jint JNICALL Java_JniSample_multiply
+  (JNIEnv *, jobject, jint, jint);
+
 #ifdef __cplusplus
 }
 #endif
